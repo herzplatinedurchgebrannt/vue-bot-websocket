@@ -1,14 +1,13 @@
 <template>
-  <div class="hello">
-
+  <div class="new">
+    <h1> Create account </h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'NewComponent',
   props: {
-    msg: String
   }
 }
 </script>
