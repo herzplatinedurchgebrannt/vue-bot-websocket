@@ -1,6 +1,8 @@
 <template>
   <div class="home">
+    <keep-alive>
     <AccountTable />
+    </keep-alive>
   </div>
 </template>
 

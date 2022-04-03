@@ -4,7 +4,7 @@
     <router-link to="/add">Add Song</router-link> |
     <router-link to="/creator">Account Creator</router-link>
   </nav>
-  <router-view/>
+  <keep-alive><router-view/></keep-alive>
 </template>
 
 <style>
@@ -17,7 +17,7 @@
 }
 
 nav {
-  padding: 30px;
+  padding: 10px;
 }
 
 nav a {
@@ -26,6 +26,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #19a329;
 }
 </style>
